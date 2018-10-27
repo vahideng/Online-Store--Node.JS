@@ -7,7 +7,7 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));// its a must to parse body in middlewares for us ny using req.body 
 
-app.use(adminRoutes);
+app.use('/admin',adminRoutes);
 app.use(customerRoutes);
 
 
