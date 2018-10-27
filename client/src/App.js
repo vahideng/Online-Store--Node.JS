@@ -20,6 +20,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <a href="/admin/add-product"> node</a>
       </div>
     );
   }
