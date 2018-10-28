@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
+
 const adminRoutes= require('./routes/adminRoutes');
 const customerRoutes= require('./routes/customerRoutes')
 const app = express();
