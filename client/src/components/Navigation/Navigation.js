@@ -28,7 +28,7 @@ export default function navigation() {
               </a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/add-product">
+              <Link className="nav-link"  to="/add-product">
                 Add Product
               </Link>
             </li>

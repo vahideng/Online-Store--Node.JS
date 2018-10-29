@@ -1,0 +1,4 @@
+export const ADD_PRODUCT_SUCCESS = "ADD_PRODUCT_SUCCESS";
+export const NEW_PRODUCT = "NEW_PRODUCT";
+export const ADD_PRODUCT_FAILL = "ADD_PRODUCT_FAILL";
+export const ADD_INIT = "ADD_INIT";

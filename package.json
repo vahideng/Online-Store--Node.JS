@@ -7,11 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js",
     "client": "npm run start --prefix client",
-    "dev" : "concurrently --kill-others-on-fail \"npm start\" \"npm run client\""
+    "dev": "concurrently --kill-others-on-fail \"npm start\" \"npm run client\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "nodemon": "^1.18.5"
